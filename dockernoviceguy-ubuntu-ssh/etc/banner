@@ -22,3 +22,7 @@ Esse container possui:
 
 - VIM
 - SSH
+- CURL
+- NVM
+- NODE 12.x
+
