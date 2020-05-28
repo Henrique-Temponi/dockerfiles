@@ -40,4 +40,10 @@ USER root
 EXPOSE 22
 EXPOSE 3090
 
+# Cria um workspace
+RUN mkdir /workspace
+RUN chmod 777 /workspace
+VOLUME [ "/workspace" ]
+
+
 CMD    ["/usr/sbin/sshd", "-D"]
